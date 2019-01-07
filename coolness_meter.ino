@@ -9,6 +9,8 @@ void setup() {
  pinMode(7, OUTPUT);
  pinMode(6, OUTPUT);
  pinMode(5, OUTPUT);
+ pinMode(4, OUTPUT);
+ 
  
 }
 
@@ -24,46 +26,46 @@ if (stan > 150 && stan < 1000) {
 else {
   digitalWrite(13, LOW);
 }
-if (stan > 355 && stan < 900) {
+if (stan > 355 && stan < 1000) {
   digitalWrite(12, HIGH);
 }
 else {
   digitalWrite(12, LOW);
 }
-if (stan > 459 && stan < 800) {
+if (stan > 459 && stan < 1000) {
   digitalWrite(11, HIGH);
 }
 else {
   digitalWrite(11, LOW);
 }
-if (stan > 560 && stan < 750) {
+if (stan > 560 && stan < 900) {
   digitalWrite(10, HIGH);
 }
 else {
   digitalWrite(10, LOW);
 }
-if (stan > 674 && stan < 700 ) {
+if (stan > 674 && stan < 900 ) {
   digitalWrite(9, HIGH);
 }
 else {
   digitalWrite(9, LOW);
 }
  
-if (stan > 700 && stan < 990) {
+if (stan > 700 && stan < 890) {
   digitalWrite(8, HIGH);
 }
 else {
   digitalWrite(8, LOW);
 }
 
- if (stan > 770 && stan < 700) {
+ if (stan > 770 && stan < 710) {
   digitalWrite(7, HIGH);
 }
 else {
   digitalWrite(7, LOW);
 }
  
- if (stan > 875 && stan < 600) {
+ if (stan > 50 && stan < 890) {
   digitalWrite(6, HIGH);
 }
 else {
@@ -71,12 +73,21 @@ else {
 }
 
  
-if (stan > 890 && stan < 910) {
+if (stan > 710 && stan < 810) {
   digitalWrite(5, HIGH);
 }
 else {
   digitalWrite(5, LOW);
 }
+
+if (stan > 990 && stan < 100) {
+  digitalWrite(4, HIGH);
+}
+else {
+  digitalWrite(4, LOW);
+}
+
+
 
 
 }
